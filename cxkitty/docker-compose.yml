@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  cxkitty:
+    image: socialsisteryi/cx-kitty
+    container_name: cxkitty
+    volumes:
+      - /home/fsac/Selfhosted-Services/cxkitty/session:/app/session
+      - /home/fsac/Selfhosted-Services/cxkitty/export:/app/export
+      - /home/fsac/Selfhosted-Services/cxkitty/logs:/app/logs
+      - /home/fsac/Selfhosted-Services/cxkitty/config.yml:/app/config.yml
+    restart: unless-stopped

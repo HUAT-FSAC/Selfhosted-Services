@@ -4,7 +4,7 @@ services:
         restart: always
         volumes:
             # - '/etc/alist:/opt/alist/data'
-            - '/home/fsac/Docker-related/alist/:/opt/alist/data'
+            - '/home/fsac/Selfhosted-Services/alist/:/opt/alist/data'
             - '/data:/data' # for 2T storage
         ports:
             - '5244:5244'
