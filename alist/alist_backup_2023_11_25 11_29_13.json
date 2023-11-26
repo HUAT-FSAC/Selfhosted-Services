@@ -1,0 +1,570 @@
+{
+  "settings": [
+    {
+      "key": "version",
+      "value": "v3.28.0",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 1,
+      "flag": 2
+    },
+    {
+      "key": "site_title",
+      "value": "车队存储",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 1,
+      "flag": 0
+    },
+    {
+      "key": "announcement",
+      "value": "### repo\nhttps://github.com/alist-org/alist",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 1,
+      "flag": 0
+    },
+    {
+      "key": "pagination_type",
+      "value": "all",
+      "help": "",
+      "type": "select",
+      "options": "all,pagination,load_more,auto_load_more",
+      "group": 1,
+      "flag": 0
+    },
+    {
+      "key": "default_page_size",
+      "value": "30",
+      "help": "",
+      "type": "number",
+      "options": "",
+      "group": 1,
+      "flag": 0
+    },
+    {
+      "key": "allow_indexed",
+      "value": "false",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 1,
+      "flag": 0
+    },
+    {
+      "key": "allow_mounted",
+      "value": "true",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 1,
+      "flag": 0
+    },
+    {
+      "key": "robots_txt",
+      "value": "User-agent: *\nAllow: /",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 1,
+      "flag": 0
+    },
+    {
+      "key": "logo",
+      "value": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 2,
+      "flag": 0
+    },
+    {
+      "key": "favicon",
+      "value": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 2,
+      "flag": 0
+    },
+    {
+      "key": "main_color",
+      "value": "#1890ff",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 2,
+      "flag": 0
+    },
+    {
+      "key": "home_icon",
+      "value": "🏠",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 2,
+      "flag": 0
+    },
+    {
+      "key": "home_container",
+      "value": "max_980px",
+      "help": "",
+      "type": "select",
+      "options": "max_980px,hope_container",
+      "group": 2,
+      "flag": 0
+    },
+    {
+      "key": "settings_layout",
+      "value": "list",
+      "help": "",
+      "type": "select",
+      "options": "list,responsive",
+      "group": 2,
+      "flag": 0
+    },
+    {
+      "key": "text_types",
+      "value": "txt,htm,html,xml,java,properties,sql,js,md,json,conf,ini,vue,php,py,bat,gitignore,yml,go,sh,c,cpp,h,hpp,tsx,vtt,srt,ass,rs,lrc",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 1
+    },
+    {
+      "key": "audio_types",
+      "value": "mp3,flac,ogg,m4a,wav,opus,wma",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 1
+    },
+    {
+      "key": "video_types",
+      "value": "mp4,mkv,avi,mov,rmvb,webm,flv",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 1
+    },
+    {
+      "key": "image_types",
+      "value": "jpg,tiff,jpeg,png,gif,bmp,svg,ico,swf,webp",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 1
+    },
+    {
+      "key": "proxy_types",
+      "value": "m3u8",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 1
+    },
+    {
+      "key": "proxy_ignore_headers",
+      "value": "authorization,referer",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 1
+    },
+    {
+      "key": "external_previews",
+      "value": "{}",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 0
+    },
+    {
+      "key": "iframe_previews",
+      "value": "{\n\t\"doc,docx,xls,xlsx,ppt,pptx\": {\n\t\t\"Microsoft\":\"https://view.officeapps.live.com/op/view.aspx?src=$e_url\",\n\t\t\"Google\":\"https://docs.google.com/gview?url=$e_url&embedded=true\"\n\t},\n\t\"pdf\": {\n\t\t\"PDF.js\":\"https://alist-org.github.io/pdf.js/web/viewer.html?file=$e_url\"\n\t},\n\t\"epub\": {\n\t\t\"EPUB.js\":\"https://alist-org.github.io/static/epub.js/viewer.html?url=$e_url\"\n\t}\n}",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 3,
+      "flag": 0
+    },
+    {
+      "key": "audio_cover",
+      "value": "https://jsd.nn.ci/gh/alist-org/logo@main/logo.svg",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 3,
+      "flag": 0
+    },
+    {
+      "key": "audio_autoplay",
+      "value": "true",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 3,
+      "flag": 0
+    },
+    {
+      "key": "video_autoplay",
+      "value": "true",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 3,
+      "flag": 0
+    },
+    {
+      "key": "hide_files",
+      "value": "/\\/README.md/i",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 4,
+      "flag": 0
+    },
+    {
+      "key": "package_download",
+      "value": "true",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 4,
+      "flag": 0
+    },
+    {
+      "key": "customize_head",
+      "value": "<script src=\"https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll\"></script>",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 4,
+      "flag": 1
+    },
+    {
+      "key": "customize_body",
+      "value": "",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 4,
+      "flag": 1
+    },
+    {
+      "key": "link_expiration",
+      "value": "0",
+      "help": "",
+      "type": "number",
+      "options": "",
+      "group": 4,
+      "flag": 1
+    },
+    {
+      "key": "sign_all",
+      "value": "false",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 4,
+      "flag": 1
+    },
+    {
+      "key": "privacy_regs",
+      "value": "(?:(?:\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])\\.){3}(?:\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])\n([[:xdigit:]]{1,4}(?::[[:xdigit:]]{1,4}){7}|::|:(?::[[:xdigit:]]{1,4}){1,6}|[[:xdigit:]]{1,4}:(?::[[:xdigit:]]{1,4}){1,5}|(?:[[:xdigit:]]{1,4}:){2}(?::[[:xdigit:]]{1,4}){1,4}|(?:[[:xdigit:]]{1,4}:){3}(?::[[:xdigit:]]{1,4}){1,3}|(?:[[:xdigit:]]{1,4}:){4}(?::[[:xdigit:]]{1,4}){1,2}|(?:[[:xdigit:]]{1,4}:){5}:[[:xdigit:]]{1,4}|(?:[[:xdigit:]]{1,4}:){1,6}:)\n(?U)access_token=(.*)&",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 4,
+      "flag": 1
+    },
+    {
+      "key": "ocr_api",
+      "value": "https://api.nn.ci/ocr/file/json",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 4,
+      "flag": 0
+    },
+    {
+      "key": "filename_char_mapping",
+      "value": "{\"/\": \"|\"}",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 4,
+      "flag": 0
+    },
+    {
+      "key": "forward_direct_link_params",
+      "value": "false",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 4,
+      "flag": 0
+    },
+    {
+      "key": "webauthn_login_enabled",
+      "value": "false",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 4,
+      "flag": 0
+    },
+    {
+      "key": "aria2_uri",
+      "value": "http://localhost:6800/jsonrpc",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 5,
+      "flag": 1
+    },
+    {
+      "key": "aria2_secret",
+      "value": "",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 5,
+      "flag": 1
+    },
+    {
+      "key": "token",
+      "value": "alist-837ccb0d-a01d-433b-add6-b6960f3b3fe3S6a5nFNlIipSfM1ijUp2P0RrWoLuSGC4t9K6IRIq4Z8jH0VXmyAoiwQjXfdPBUDC",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 0,
+      "flag": 1
+    },
+    {
+      "key": "search_index",
+      "value": "database",
+      "help": "",
+      "type": "select",
+      "options": "database,database_non_full_text,bleve,none",
+      "group": 6,
+      "flag": 0
+    },
+    {
+      "key": "auto_update_index",
+      "value": "true",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 6,
+      "flag": 0
+    },
+    {
+      "key": "ignore_paths",
+      "value": "",
+      "help": "one path per line",
+      "type": "text",
+      "options": "",
+      "group": 6,
+      "flag": 1
+    },
+    {
+      "key": "max_index_depth",
+      "value": "20",
+      "help": "max depth of index",
+      "type": "number",
+      "options": "",
+      "group": 6,
+      "flag": 1
+    },
+    {
+      "key": "index_progress",
+      "value": "{\"obj_count\":27538,\"is_done\":true,\"last_done_time\":\"2023-11-25T03:33:03.352556163Z\",\"error\":\"\"}",
+      "help": "",
+      "type": "text",
+      "options": "",
+      "group": 0,
+      "flag": 1
+    },
+    {
+      "key": "sso_login_enabled",
+      "value": "false",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 7,
+      "flag": 0
+    },
+    {
+      "key": "sso_login_platform",
+      "value": "",
+      "help": "",
+      "type": "select",
+      "options": "Casdoor,Github,Microsoft,Google,Dingtalk,OIDC",
+      "group": 7,
+      "flag": 0
+    },
+    {
+      "key": "sso_client_id",
+      "value": "",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_client_secret",
+      "value": "",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_organization_name",
+      "value": "",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_application_name",
+      "value": "",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_endpoint_name",
+      "value": "",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_jwt_public_key",
+      "value": "",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_auto_register",
+      "value": "false",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_default_dir",
+      "value": "/",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_default_permission",
+      "value": "0",
+      "help": "",
+      "type": "number",
+      "options": "",
+      "group": 7,
+      "flag": 1
+    },
+    {
+      "key": "sso_compatibility_mode",
+      "value": "false",
+      "help": "",
+      "type": "bool",
+      "options": "",
+      "group": 7,
+      "flag": 0
+    },
+    {
+      "key": "qbittorrent_url",
+      "value": "http://admin:adminadmin@localhost:8080/",
+      "help": "",
+      "type": "string",
+      "options": "",
+      "group": 0,
+      "flag": 1
+    },
+    {
+      "key": "qbittorrent_seedtime",
+      "value": "0",
+      "help": "",
+      "type": "number",
+      "options": "",
+      "group": 0,
+      "flag": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "",
+      "base_path": "/",
+      "role": 2,
+      "disabled": false,
+      "permission": 0,
+      "sso_id": ""
+    },
+    {
+      "id": 2,
+      "username": "guest",
+      "password": "",
+      "base_path": "/",
+      "role": 1,
+      "disabled": false,
+      "permission": 895,
+      "sso_id": ""
+    }
+  ],
+  "storages": [
+    {
+      "id": 1,
+      "mount_path": "/",
+      "order": 0,
+      "driver": "Local",
+      "cache_expiration": 0,
+      "status": "work",
+      "addition": "{\"root_folder_path\":\"/data/alist_share\",\"thumbnail\":false,\"thumb_cache_folder\":\"\",\"show_hidden\":false,\"mkdir_perm\":\"777\"}",
+      "remark": "",
+      "modified": "2023-11-23T11:16:15.293200345Z",
+      "disabled": false,
+      "enable_sign": false,
+      "order_by": "",
+      "order_direction": "",
+      "extract_folder": "",
+      "web_proxy": false,
+      "webdav_policy": "native_proxy",
+      "down_proxy_url": ""
+    }
+  ],
+  "metas": []
+}
